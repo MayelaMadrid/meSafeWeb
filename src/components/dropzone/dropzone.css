@@ -1,0 +1,29 @@
+.Dropzone {
+  height: 35%;
+  width: 80%;
+  background-color: transparent;
+  border: 2px dashed var(--color-blue-general);
+  display: flex;
+  padding: 1.5% 1% 0 1%;box-sizing: border-box;
+  color: var(--color-blue-general);
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-left: 10%;
+  overflow: auto;
+}
+.dropzone-img{
+  width: 9vw;
+  height: 7vw;
+  margin-right: 2%;
+}
+.Icon {
+  opacity: 0.3;
+  height: 64px;
+  width: 64px;
+}
+
+.FileInput {
+  display: none;
+}

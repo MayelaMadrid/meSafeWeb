@@ -1,0 +1,7 @@
+export const GET_REPORTS = 'GET_REPORTS';
+export const SAVE_REPORTS = 'SAVE_REPORTS';
+export const QUALIFY_REPORTS = 'QUALIFY_REPORTS';
+export const CENSORE_REPORTS = 'CENSORE_REPORTS';
+export const DELETE_REPORT = 'DELETE_REPORT';
+export const DENOUNCE_REPORTS = 'DENOUNCE_REPORTS';
+export const NEW_ALERT = 'NEW_ALERT';

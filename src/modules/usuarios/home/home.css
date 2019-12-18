@@ -1,0 +1,241 @@
+.home-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 22% 60% 18%;
+  grid-template-rows: 100%;
+  grid-template-areas: "SIDEBAR REPORTS ALERTS";
+}
+
+.sidebar-container {
+  width: 100%;
+  height: 100%;
+  grid-area: SIDEBAR;
+}
+
+.logo-sidebar {
+  width: 100%;
+  height: 15%;
+}
+
+.logo-sidebar > label {
+  font-size: 3rem;
+  color: white;
+  font-weight: 500;
+}
+
+.logo-sidebar > img {
+  width: 64%;
+  height: 60%;
+  /* box-shadow: 10px 10px 5px 0px white; */
+}
+
+.info-user-home {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.user-name {
+  font-size: 1.3rem;
+  margin: 2% 0;
+  text-align: center;
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 15vmin;
+  height: 15vmin;
+}
+
+.sidebar-menu {
+  color: white;
+}
+
+.sidebar-menu > ul {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar-menu > ul > li {
+  margin-bottom: 8%;
+}
+
+.sidebar-menu > h3 {
+  margin-left: 8%;
+}
+
+.reports-home-container {
+  width: 100%;
+  overflow: auto;
+  position: relative;
+  height: 100%;
+  grid-area: REPORTS;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0% 6%;
+  box-sizing: border-box;
+}
+
+.report-search {
+  width: 80%;
+  height: 6%;
+  margin-top: 2rem;
+}
+
+.report-search > .MuiTextField-root {
+  width: 70%;
+}
+
+.link-new-report {
+  width: 15% !important;
+  text-align: center; 
+  background-color: #4573ba !important;
+  color: white !important;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.new-report {
+  width: 100%;
+  height: 6%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 3%;
+  border-bottom: 4px solid #bbd6ff;
+  color: #535983;
+  font-size: 1rem;
+  background-color: white;
+}
+
+.new-report svg {
+  font-size: 1.2rem;
+  margin-left: 3px;
+  position: absolute;
+}
+
+.new-report a:hover {
+  cursor: pointer;
+  background: rgb(128, 131, 152, 0.2);
+  border-radius: 5px;
+}
+
+.img-all {
+  border-radius: 50%;
+  width: 7vmin;
+  height: 7vmin;
+}
+
+.alerts-home-container {
+  width: 100%;
+  height: 100%;
+  grid-area: ALERTS;
+  padding: 0% 6%;
+  box-sizing: border-box;
+}
+
+.title-alerts {
+  width: 100%;
+  height: 7%;
+  margin-bottom: 5%;
+  text-align: center;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.alert {
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.85);
+  width: 100%;
+  height: 20%;
+  font-size: 0.87rem;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 4%;
+  text-overflow: ellipsis;
+}
+.alert > div > div {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  max-width: 92%;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.alerts {
+  width: 100%;
+  height: 70%;
+  padding-top: 9%;
+  box-sizing: border-box;
+  color: var(--color-purple-line);
+  font-weight: bold;
+  overflow: auto;
+}
+.alert > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 90%;
+  width: 69%;
+}
+
+.title-tip {
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  height: 15%;
+  margin-bottom: 5%;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  color: var(--color-purple-line);
+  font-weight: bold;
+}
+
+.tip {
+  width: 100%;
+  height: 70%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 0 10%;
+  box-sizing: border-box;
+  color: var(--color-purple-line);
+  font-weight: bold;
+}
+
+.tips {
+  width: 100%;
+  height: 30%;
+}
+.tip > div {
+  text-align: center;
+}
+.new-report > a {
+  width: 13vw;
+  color: #535983;
+  margin-left: 1%;
+  position: relative;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+.loading-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}

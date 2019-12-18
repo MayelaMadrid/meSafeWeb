@@ -1,0 +1,21 @@
+.facebook-class {
+  width: 81%;
+  height: 14%;
+  background-color: rgb(255, 255, 255);
+  display: inline-flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.54);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px,
+    rgba(0, 0, 0, 0.24) 0px 0px 1px 0px;
+  padding: 0px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: space-around;
+}
+.methods-signup > button:nth-child(1) {
+  width: 81%;
+  height: 15%;
+  margin-bottom: 5%;
+}

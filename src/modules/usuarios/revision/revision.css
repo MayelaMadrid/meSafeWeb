@@ -1,0 +1,18 @@
+.title-revision {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--color-blue-general);
+  border-bottom: 3px solid var(--color-purple-line);
+  text-align: center;
+}
+
+.delete-report {
+  position: absolute !important;
+  left: 100%;
+}
+.no-result {
+  width: 100%;
+  height: 10%;
+  padding: 5% 0%;
+  text-align: center;
+}

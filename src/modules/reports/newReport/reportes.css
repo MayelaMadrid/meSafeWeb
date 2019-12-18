@@ -1,0 +1,125 @@
+.title-new-report {
+  font-size: 1.2rem;
+  height: 15%;
+  font-weight: 600;
+  flex-direction: column;
+}
+
+.title-new-report > div {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: var(--color-purple-line);
+}
+
+.ta-description {
+  width: 80%;
+  margin: 0px !important;
+}
+
+.container-form-new {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.ipt-date {
+  width: 30%;
+}
+
+.container-ipt {
+  width: 100%;
+  height: 46%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tipo-ipt {
+  width: 60%;
+}
+
+.ipt-location {
+  width: 80%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.ta-location {
+  width: 98%;
+}
+
+.modal-map {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modal-map > div {
+  width: 65%;
+  position: absolute;
+  top: 26%;
+  left: 19%;
+}
+
+.btn-save-report {
+  width: 80%;
+}
+
+.cont-ipts-short {
+  width: 80%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.ipt-type {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ipt-type > label {
+  width: fit-content;
+  font-size: 0.8rem;
+}
+.btn-cancel {
+  background: var(--color-purple-line);
+  width: 100%;
+}
+.ipt-type > div {
+  width: initial;
+}
+.btns-save-report {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+}
+
+.btns-save-report > button {
+  width: 43%;
+}
+.btns-save-report > a {
+  width: 43%;
+}
+.close-modal {
+  position: absolute !important;
+  top: 3%;
+  right: 3%;
+  z-index: 3;
+}
+.save-modal {
+  position: absolute !important;
+  top: 82%;
+  right: 45%;
+  z-index: 3;
+}

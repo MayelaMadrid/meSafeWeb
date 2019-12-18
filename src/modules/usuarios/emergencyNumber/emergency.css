@@ -1,0 +1,12 @@
+.centers-container > img {
+  width: 8vmin;
+  margin-right: 4vmin;
+}
+.centers-container {
+  display: inline-flex;
+  margin-bottom: 4vmin;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-bottom: 4px solid #bbd6ff;
+}
